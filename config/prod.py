@@ -48,7 +48,7 @@ LOG_LEVEL = 'ERROR'
 # )
 
 
-DATABASES.update = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'quweilongtest1',  # noqa

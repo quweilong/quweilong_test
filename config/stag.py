@@ -32,7 +32,7 @@ RUN_MODE = 'STAGING'
 
 # 预发布环境数据库可以在这里配置
 
-DATABASES.update = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'quweilongtest1',  # noqa
