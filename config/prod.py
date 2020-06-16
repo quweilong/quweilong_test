@@ -51,7 +51,7 @@ LOG_LEVEL = 'ERROR'
 DATABASES.update = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': APP_CODE,  # noqa
+        'NAME': 'quweilongtest1',  # noqa
         'USER': 'root',
         'PASSWORD': '120339',
         'HOST': 'localhost',
