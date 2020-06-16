@@ -34,16 +34,29 @@ LOG_LEVEL = 'ERROR'
 
 # 正式环境数据库可以在这里配置
 
-DATABASES.update(
-    {
-        'default': {
-            'ENGINE': 'django.db.backends.mysql',
-            'NAME': '',  # 数据库名
-            'USER': '',  # 数据库用户
-            'PASSWORD': '',  # 数据库密码
-            'HOST': '',  # 数据库主机
-            'PORT': '3306',  # 数据库端口
-        },
-    }
-)
+# DATABASES.update(
+#     {
+#         'default': {
+#             'ENGINE': 'django.db.backends.mysql',
+#             'NAME': '',  # 数据库名
+#             'USER': '',  # 数据库用户
+#             'PASSWORD': '',  # 数据库密码
+#             'HOST': '',  # 数据库主机
+#             'PORT': '3306',  # 数据库端口
+#         },
+#     }
+# )
+
+
+DATABASES.update = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': APP_CODE,  # noqa
+        'USER': 'root',
+        'PASSWORD': '120339',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    },
+}
+
 
