@@ -38,7 +38,7 @@ DATABASES = {
         'NAME': 'quweilongtest1',  # noqa
         'USER': 'root',
         'PASSWORD': '120339',
-        'HOST': '10.0.48.17',
+        'HOST': '10.10.0.97',
         'PORT': '3306',
     },
 }
