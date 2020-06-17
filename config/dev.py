@@ -39,7 +39,7 @@ DEBUG = True
 # SQL: CREATE DATABASE `framework_py` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci; # noqa: E501
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': APP_CODE,  # noqa
         'USER': 'root',
         'PASSWORD': '120339',
