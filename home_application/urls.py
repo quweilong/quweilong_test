@@ -12,12 +12,17 @@ specific language governing permissions and limitations under the License.
 """
 
 from django.conf.urls import url
+from django.urls import include
+from django.urls import path
 
 from . import views
+import news
 
 urlpatterns = (
     url(r'^$', views.home),
     url(r'^dev-guide/$', views.dev_guide),
     url(r'^contact/$', views.contact),
     url(r'^hello/$', views.hello),
+    path('news/', include('news.urls')),
+
 )
