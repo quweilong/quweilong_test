@@ -50,7 +50,7 @@ LOG_LEVEL = 'ERROR'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'quweilongtest1',  # noqa
         'USER': 'root',
         'PASSWORD': '120339',
